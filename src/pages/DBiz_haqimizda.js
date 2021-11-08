@@ -9,7 +9,7 @@ import educators3 from "../img/educators3.jpg";
 import Global from "../host/Global";
 import { getKg } from "../host/Config";
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+
 import {
   MDBCard,
   MDBCardBody,
@@ -20,7 +20,7 @@ import {
   MDBRow,
 } from "mdb-react-ui-kit";
 
-export default class About_us extends Component {
+export default class DBiz_haqimizda extends Component {
   state = {
     loader: true,
   };
@@ -70,7 +70,6 @@ export default class About_us extends Component {
           </div>
         ) : (
           <div>
-            <Navbar />
             <Container>
               {/* <div className={styles.body}> */}
               <div className={styles.title}>

@@ -11,7 +11,8 @@ import about2 from "../img/about2.jpg";
 import about3 from "../img/about3.jpg";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 import Dashboardnews from "./Dashboardnews";
 import Dashboardtadbir from "./Dashboardtadbir";
 export default class Galereya extends Component {
@@ -49,10 +50,12 @@ export default class Galereya extends Component {
       <div>
         {this.state.loader ? (
           <div className={styles.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={this.state.loader}
+            <Loader
+              type="Plane"
+              color="#00BFFF"
+              height={200}
+              width={200}
+              visible={this.state.loader}
             />
           </div>
         ) : (

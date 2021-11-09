@@ -9,7 +9,8 @@ import kinder3 from "../img/kinder9.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "./Footer";
 import kinder from "../video/kinder.mp4";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 
 export default class Curriculm extends Component {
   state = {
@@ -27,10 +28,12 @@ export default class Curriculm extends Component {
       <div>
         {this.state.loader ? (
           <div className={styles.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={this.state.loader}
+            <Loader
+              type="Plane"
+              color="#00BFFF"
+              height={200}
+              width={200}
+              visible={this.state.loader}
             />
           </div>
         ) : (

@@ -1,5 +1,8 @@
 body {
   background-color: white !important;
+  /* background-image: url("./img/navbar1.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; */
 }
 .ant-menu.ant-menu-dark .ant-menu-item-selected,
 .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {

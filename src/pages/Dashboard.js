@@ -28,7 +28,8 @@ import { Link } from "react-router-dom";
 import rasm4 from "../img/3s-Photo-3.jpg";
 import rasm7 from "../img/engagement.jpg";
 import rasm6 from "../img/love.jpg";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 import Footer from "./Footer";
 import DBiz_haqimizda from "./DBiz_haqimizda";
 import Dashboardnews from "./Dashboardnews";
@@ -57,7 +58,6 @@ import img from "../img/border.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { Menu } from "antd";
 import "antd/dist/antd.css";
-
 export default class Dashboard extends Component {
   state = {
     loader: true,
@@ -101,10 +101,12 @@ export default class Dashboard extends Component {
       <div>
         {this.state.loader ? (
           <div className={styles.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={this.state.loader}
+            <Loader
+              type="Plane"
+              color="#00BFFF"
+              height={200}
+              width={200}
+              visible={this.state.loader}
             />
           </div>
         ) : (
@@ -357,11 +359,7 @@ export default class Dashboard extends Component {
                     <div className={style.oyna}>
                       <div className={style.rasm}>
                         <img
-                          src={
-                            Global.kg.program1_img === null
-                              ? img1
-                              : `https://bogcha.herokuapp.com${Global.kg.program1_img}`
-                          }
+                          src={`https://bogcha.herokuapp.com/media/kg_childs_vM7H0UN.jpg`}
                         />
                       </div>
                       <div className={style.border}>
@@ -379,7 +377,17 @@ export default class Dashboard extends Component {
                         ></div>
                         <p>{Global.kg.program1}</p>
                         <span>
-                          <Link to="/dastur_1/uz">Batafsil</Link>
+                          <Link
+                            to="/dastur_1/uz"
+                            style={{
+                              padding: "10px 15px",
+                              color: "white",
+                              backgroundColor: "#f76b6a",
+                              borderRadius: "7px",
+                            }}
+                          >
+                            Batafsil
+                          </Link>
                         </span>
                       </div>
                     </div>
@@ -397,7 +405,17 @@ export default class Dashboard extends Component {
                         ></div>
                         <p>{Global.kg.program2}</p>
                         <span>
-                          <Link to="/dastur_2/uz">Batafsil</Link>
+                          <Link
+                            to="/dastur_2/uz"
+                            style={{
+                              padding: "10px 15px",
+                              color: "white",
+                              backgroundColor: "#f76b6a",
+                              borderRadius: "7px",
+                            }}
+                          >
+                            Batafsil
+                          </Link>
                         </span>
                       </div>
                       <div className={style.border}>
@@ -405,11 +423,7 @@ export default class Dashboard extends Component {
                       </div>
                       <div className={style.rasm}>
                         <img
-                          src={
-                            Global.kg.program1_img === null
-                              ? img2
-                              : `https://bogcha.herokuapp.com${Global.kg.program2_img}`
-                          }
+                          src={`https://bogcha.herokuapp.com${Global.kg.program2_img}`}
                         />
                       </div>
                     </div>
@@ -418,11 +432,7 @@ export default class Dashboard extends Component {
                     <div className={style.oyna}>
                       <div className={style.rasm}>
                         <img
-                          src={
-                            Global.kg.program1_img === null
-                              ? img3
-                              : `https://bogcha.herokuapp.com${Global.kg.program3_img}`
-                          }
+                          src={`https://bogcha.herokuapp.com${Global.kg.program3_img}`}
                         />
                       </div>
                       <div className={style.border}>
@@ -440,7 +450,17 @@ export default class Dashboard extends Component {
                         ></div>
                         <p>{Global.kg.program3}</p>
                         <span>
-                          <Link to="/dastur_3/uz">Batafsil</Link>
+                          <Link
+                            to="/dastur_3/uz"
+                            style={{
+                              padding: "10px 15px",
+                              color: "white",
+                              backgroundColor: "#f76b6a",
+                              borderRadius: "7px",
+                            }}
+                          >
+                            Batafsil
+                          </Link>
                         </span>
                       </div>
                     </div>

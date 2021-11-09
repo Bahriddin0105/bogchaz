@@ -6,7 +6,8 @@ import Footer from "./Footer";
 import img1 from "../img/r2.jpg";
 import img4 from "../img/r4.jpeg";
 import img5 from "../img/r5.jpeg";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Global from "../host/Global";
@@ -54,10 +55,12 @@ export default class Bosqich2 extends Component {
       <div className={style.mat}>
         {this.state.loader ? (
           <div className={style.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={this.state.loader}
+            <Loader
+              type="Plane"
+              color="#00BFFF"
+              height={200}
+              width={200}
+              visible={this.state.loader}
             />
           </div>
         ) : (

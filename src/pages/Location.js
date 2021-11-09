@@ -15,7 +15,8 @@ import {
   YMaps,
   ZoomControl,
 } from "react-yandex-maps";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 import rasm5 from "../img/logo-dark.png";
 import { Link } from "react-router-dom";
 import { BsFillTriangleFill } from "react-icons/bs";
@@ -77,10 +78,12 @@ export default class Location extends Component {
       <div>
         {this.state.loader ? (
           <div className={styles.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={this.state.loader}
+            <Loader
+              type="Plane"
+              color="#00BFFF"
+              height={200}
+              width={200}
+              visible={this.state.loader}
             />
           </div>
         ) : (

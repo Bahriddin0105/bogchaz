@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Col, Container, Row, Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../css/Login.module.css";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 import rasm5 from "../img/logo-dark.png";
 import { Link } from "react-router-dom";
 import { BsFillTriangleFill } from "react-icons/bs";
@@ -59,7 +60,13 @@ export default function Login() {
     <div>
       {loader ? (
         <div className={styles.loader}>
-          <PacmanLoader size={20} color={"#FF8080"} loading={loader} />
+          <Loader
+            type="Plane"
+            color="#00BFFF"
+            height={200}
+            width={200}
+            visible={this.state.loader}
+          />
         </div>
       ) : (
         <div>

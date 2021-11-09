@@ -4,12 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "react-multi-carousel/lib/styles.css";
 import "../css/educators.module.css";
 import styles from "../css/about_us.module.css";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
 import educators3 from "../img/educators3.jpg";
 import Global from "../host/Global";
 import { getKg } from "../host/Config";
 import { Link } from "react-router-dom";
-
+import "../css/Umumiy.css";
+import Loader from "react-loader-spinner";
 import {
   MDBCard,
   MDBCardBody,
@@ -62,14 +63,16 @@ export default class DBiz_haqimizda extends Component {
       <div>
         {this.state.loader ? (
           <div className={styles.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={this.state.loader}
+            <Loader
+              type="Plane"
+              color="#00BFFF"
+              height={200}
+              width={200}
+              visible={this.state.loader}
             />
           </div>
         ) : (
-          <div>
+          <div className="vse">
             <Container>
               {/* <div className={styles.body}> */}
               <div className={styles.title}>

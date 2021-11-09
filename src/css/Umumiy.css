@@ -1,0 +1,11 @@
+body {
+  background-image: url("../img/navbar2.png") !important;
+  background-position: bottom;
+  background-attachment: fixed;
+  z-index: -1 !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.vse {
+  z-index: 1 !important;
+}

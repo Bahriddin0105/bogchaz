@@ -13,7 +13,8 @@ import {
 } from "react-icons/fa";
 import "../App.css";
 import styles from "../css/navbarkids.module.css";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 
 import { Menu, Button } from "antd";
 import {
@@ -63,10 +64,12 @@ export default class CabinetEducator extends Component {
       <div>
         {this.state.loader ? (
           <div className={styles.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={this.state.loader}
+            <Loader
+              type="Plane"
+              color="#00BFFF"
+              height={200}
+              width={200}
+              visible={this.state.loader}
             />
           </div>
         ) : (

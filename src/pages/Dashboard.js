@@ -101,13 +101,7 @@ export default class Dashboard extends Component {
       <div>
         {this.state.loader ? (
           <div className={styles.loader}>
-            <Loader
-              type="Plane"
-              color="#00BFFF"
-              height={200}
-              width={200}
-              visible={this.state.loader}
-            />
+            <Loader type="Circles" color="#00BFFF" height={80} width={80} />
           </div>
         ) : (
           <div>

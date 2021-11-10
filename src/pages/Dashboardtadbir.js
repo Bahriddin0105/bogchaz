@@ -86,7 +86,7 @@ export default class Dashboardtadbir extends Component {
                               style={{
                                 color: "white",
                                 backgroundColor: "#f76b6a",
-                                width: "70px",
+                                width: "76px",
                                 padding: "3px 10px",
                                 border: "1px solid #f76b6a",
                                 borderRadius: "10px",
@@ -131,7 +131,7 @@ export default class Dashboardtadbir extends Component {
                               style={{
                                 color: "white",
                                 backgroundColor: "#f76b6a",
-                                width: "70px",
+                                width: "76px",
                                 padding: "3px 10px",
                                 border: "1px solid #f76b6a",
                                 borderRadius: "10px",
@@ -176,7 +176,7 @@ export default class Dashboardtadbir extends Component {
                               style={{
                                 color: "white",
                                 backgroundColor: "#f76b6a",
-                                width: "70px",
+                                width: "76px",
                                 padding: "3px 10px",
                                 border: "1px solid #f76b6a",
                                 borderRadius: "10px",
@@ -221,7 +221,7 @@ export default class Dashboardtadbir extends Component {
                               style={{
                                 color: "white",
                                 backgroundColor: "#f76b6a",
-                                width: "70px",
+                                width: "76px",
                                 padding: "3px 10px",
                                 border: "1px solid #f76b6a",
                                 borderRadius: "10px",

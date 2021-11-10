@@ -12,7 +12,8 @@ import {
   GeoObject,
 } from "react-yandex-maps";
 import styles from "../css/Dashboard.module.css";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 
 // import person from "./person.png";
 // import oila from "./pages/new.jpg";
@@ -29,7 +30,7 @@ import { message } from "antd";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-export const Xarita=()=> {
+export const Xarita = () => {
   const [loading, setLoading] = useState(true);
   const [forclick, setforclick] = useState(false);
   const [village, setVillage] = useState("");
@@ -56,27 +57,28 @@ export const Xarita=()=> {
     });
   }, []);
 
-  
   return (
     <>
       {loading ? (
-          <div className={styles.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={loading}
-            />
-          </div>
-        ) : (
+        <div className={styles.loader}>
+          <Loader
+            type="Plane"
+            color="#00BFFF"
+            height={200}
+            width={200}
+            visible={this.state.loader}
+          />
+        </div>
+      ) : (
         <>
-        <Navbar/>
+          <Navbar />
           <YMaps key={"uz_UZ"} query={{ lang: "uz_UZ" }}>
             <Map
               width="100vw"
               height="95vh"
               state={{
                 center: data[0].params,
-                zoom:6,
+                zoom: 6,
               }}
             >
               <Clusterer
@@ -94,7 +96,6 @@ export const Xarita=()=> {
                           ? info.params
                           : message.info("Param mavjuda emas")
                       }
-                     
                       options={{
                         preset: "islands#greenDotIconWithCaption",
                         iconColor: "#aeca3b",
@@ -132,7 +133,7 @@ export const Xarita=()=> {
                   />
                 </Clusterer>
               )}
-              
+
               {/* <GeolocationControl options={{ float: "left" }} /> */}
               {/* <TypeSelector options={{ float: "right" }} /> */}
               {/* <TrafficControl options={{ float: "right" }} /> */}
@@ -145,5 +146,4 @@ export const Xarita=()=> {
       <Footer />
     </>
   );
-}
-
+};

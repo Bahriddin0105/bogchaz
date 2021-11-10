@@ -82,14 +82,14 @@ export default class DBiz_haqimizda extends Component {
                 <p>
                   <strong>UYDAN UYGA</strong>
                 </p>
-                <p>
+                <p className="text">
                   Biz erta yoshdagi bolalar tarbiyasi kuchiga ishonadigan
                   o'qituvchilar va ma'murlarning ajoyib guruhimiz...
                 </p>
                 <p>
                   <strong>BIZNING OILA VA JAMOAT</strong>
                 </p>
-                <p>
+                <p className="text">
                   Bizning to'rtinchi iyul bayrami, Bog'dorchilik tadbirlari,
                   Kichik DaVinchi kuni, Buvilar va bobolar partiyalari kabi
                   yuqori darajada ishtirok etadigan oilaviy tadbirlarimizdan,

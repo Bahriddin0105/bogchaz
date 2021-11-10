@@ -8,7 +8,8 @@ import "react-multi-carousel/lib/styles.css";
 import styles from "../css/about_us.module.css";
 import why1 from "../img/Whyus2.jpg";
 import why2 from "../img/whyus3.jpg";
-import PacmanLoader from "react-spinners/PacmanLoader";
+// import PacmanLoader from "react-spinners/PacmanLoader";
+import Loader from "react-loader-spinner";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Global from "../host/Global";
@@ -56,10 +57,12 @@ export default class Why_us extends Component {
       <div>
         {this.state.loader ? (
           <div className={styles.loader}>
-            <PacmanLoader
-              size={20}
-              color={"#FF8080"}
-              loading={this.state.loader}
+            <Loader
+              type="Plane"
+              color="#00BFFF"
+              height={200}
+              width={200}
+              visible={this.state.loader}
             />
           </div>
         ) : (

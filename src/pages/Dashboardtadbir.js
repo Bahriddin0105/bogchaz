@@ -77,13 +77,13 @@ export default class Dashboardtadbir extends Component {
                         <MDBCardText>
                           <p>
                             <FaCalendarAlt
-                              style={{ fontSize: "17px", color: "#FF8080" }}
+                              style={{ fontSize: "17px", color: "green" }}
                             />{" "}
                             <span>14/08/2020</span>
                           </p>
                           <p>
                             <BsGeoAlt
-                              style={{ fontSize: "17px", color: "#FF8080" }}
+                              style={{ fontSize: "17px", color: "green" }}
                             />{" "}
                             <span>133-bog'cha</span>
                           </p>
@@ -91,10 +91,10 @@ export default class Dashboardtadbir extends Component {
                             <p
                               style={{
                                 color: "white",
-                                backgroundColor: "#f76b6a",
+                                backgroundColor: "green",
                                 width: "76px",
                                 padding: "3px 10px",
-                                border: "1px solid #f76b6a",
+                                border: "1px solid green",
                                 borderRadius: "10px",
                               }}
                             >
@@ -122,13 +122,13 @@ export default class Dashboardtadbir extends Component {
                         <MDBCardText>
                           <p>
                             <FaCalendarAlt
-                              style={{ fontSize: "17px", color: "#FF8080" }}
+                              style={{ fontSize: "17px", color: "green" }}
                             />{" "}
                             <span>14/08/2020</span>
                           </p>
                           <p>
                             <BsGeoAlt
-                              style={{ fontSize: "17px", color: "#FF8080" }}
+                              style={{ fontSize: "17px", color: "green" }}
                             />{" "}
                             <span>133-bog'cha</span>
                           </p>
@@ -136,10 +136,10 @@ export default class Dashboardtadbir extends Component {
                             <p
                               style={{
                                 color: "white",
-                                backgroundColor: "#f76b6a",
+                                backgroundColor: "green",
                                 width: "76px",
                                 padding: "3px 10px",
-                                border: "1px solid #f76b6a",
+                                border: "1px solid green",
                                 borderRadius: "10px",
                               }}
                             >
@@ -167,13 +167,13 @@ export default class Dashboardtadbir extends Component {
                         <MDBCardText>
                           <p>
                             <FaCalendarAlt
-                              style={{ fontSize: "17px", color: "#FF8080" }}
+                              style={{ fontSize: "17px", color: "green" }}
                             />{" "}
                             <span>14/08/2020</span>
                           </p>
                           <p>
                             <BsGeoAlt
-                              style={{ fontSize: "17px", color: "#FF8080" }}
+                              style={{ fontSize: "17px", color: "green" }}
                             />{" "}
                             <span>133-bog'cha</span>
                           </p>
@@ -181,10 +181,10 @@ export default class Dashboardtadbir extends Component {
                             <p
                               style={{
                                 color: "white",
-                                backgroundColor: "#f76b6a",
+                                backgroundColor: "green",
                                 width: "76px",
                                 padding: "3px 10px",
-                                border: "1px solid #f76b6a",
+                                border: "1px solid green",
                                 borderRadius: "10px",
                               }}
                             >
@@ -212,13 +212,13 @@ export default class Dashboardtadbir extends Component {
                         <MDBCardText>
                           <p>
                             <FaCalendarAlt
-                              style={{ fontSize: "17px", color: "#FF8080" }}
+                              style={{ fontSize: "17px", color: "green" }}
                             />{" "}
                             <span>14/08/2020</span>
                           </p>
                           <p>
                             <BsGeoAlt
-                              style={{ fontSize: "17px", color: "#FF8080" }}
+                              style={{ fontSize: "17px", color: "green" }}
                             />{" "}
                             <span>133-bog'cha</span>
                           </p>
@@ -226,10 +226,10 @@ export default class Dashboardtadbir extends Component {
                             <p
                               style={{
                                 color: "white",
-                                backgroundColor: "#f76b6a",
+                                backgroundColor: "green",
                                 width: "76px",
                                 padding: "3px 10px",
-                                border: "1px solid #f76b6a",
+                                border: "1px solid green",
                                 borderRadius: "10px",
                               }}
                             >

@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import styles from "../css/Dashboard.module.css";
 import kinder from "../video/kinder.mp4";
 import rasm1 from "../img/ftr-logo.png";
-import rasm2 from "../img/heart-btn.png";
+import rasm2 from "../img/nemopng1.png";
+import rasm8 from "../img/nemopng2.png";
 import icon1 from "../img/icon1.png";
 import icon2 from "../img/icon2.png";
 import icon3 from "../img/icon3.png";
@@ -106,7 +107,7 @@ export default class Dashboard extends Component {
         ) : (
           <div
             style={{
-              background: "rgba(0, 255, 0, 0.2)",
+              background: "rgba(0, 0, 0, 0.3)",
               width: "100%",
             }}
           >
@@ -139,8 +140,9 @@ export default class Dashboard extends Component {
                 {/* <img src={dashback} alt="" /> */}
               </div>
               <div className={styles.btnHeader}>
-                <img alt="" src={rasm2} />
+                <img alt="" src={rasm8} />
                 <button>Hoziroq qo'ng'iroq qiling!</button>
+                {/* <img alt="" src={rasm2} /> */}
               </div>
             </div>
             <div className={styles.second}>
@@ -152,9 +154,9 @@ export default class Dashboard extends Component {
                     sm={6}
                     xs={6}
                     style={{
-                      background: "rgb(247,107,106)",
+                      background: "green",
                       background:
-                        "linear-gradient(180deg, rgba(247,107,106,1) 0%, rgba(198,192,192,1) 100%)",
+                        "linear-gradient(180deg, green 0%, rgb(198,192,192) 100%)",
                     }}
                     className={styles.card1}
                   >
@@ -170,7 +172,7 @@ export default class Dashboard extends Component {
                     md={4}
                     sm={6}
                     xs={6}
-                    style={{ backgroundColor: "#F76B6A" }}
+                    style={{ backgroundColor: "green" }}
                     className={styles.card}
                   >
                     <img alt="" src={icon2} />
@@ -186,9 +188,9 @@ export default class Dashboard extends Component {
                     sm={6}
                     xs={6}
                     style={{
-                      background: "rgb(247,107,106)",
+                      background: "green",
                       background:
-                        "linear-gradient(180deg, rgba(247,107,106,1) 0%, rgba(198,192,192,1) 100%)",
+                        "linear-gradient(180deg, green 0%, rgba(198,192,192,1) 100%)",
                     }}
                     className={styles.card1}
                   >
@@ -204,7 +206,7 @@ export default class Dashboard extends Component {
                     md={4}
                     sm={6}
                     xs={6}
-                    style={{ backgroundColor: "#F76B6A" }}
+                    style={{ backgroundColor: "green" }}
                     className={styles.card}
                   >
                     <img alt="" src={icon4} />
@@ -220,9 +222,9 @@ export default class Dashboard extends Component {
                     sm={6}
                     xs={6}
                     style={{
-                      background: "rgb(247,107,106)",
+                      background: "green",
                       background:
-                        "linear-gradient(180deg, rgba(247,107,106,1) 0%, rgba(198,192,192,1) 100%)",
+                        "linear-gradient(180deg, green 0%, rgba(198,192,192,1) 100%)",
                     }}
                     className={styles.card1}
                   >
@@ -238,7 +240,7 @@ export default class Dashboard extends Component {
                     md={4}
                     sm={6}
                     xs={6}
-                    style={{ backgroundColor: "#F76B6A" }}
+                    style={{ backgroundColor: "green" }}
                     className={styles.card}
                   >
                     <img alt="" src={icon6} />
@@ -281,14 +283,14 @@ export default class Dashboard extends Component {
                             style={{
                               padding: "10px 15px",
                               color: "white",
-                              backgroundColor: "#f76b6a",
+                              backgroundColor: "green",
                               borderRadius: "7px",
                             }}
                           >
                             Batafsil
                           </Link>
                         </span>
-                        <img alt="" src={border} />
+                        {/* <img alt="" src={border} /> */}
                       </Col>
                     </Row>
                   </Col>
@@ -320,14 +322,14 @@ export default class Dashboard extends Component {
                             style={{
                               padding: "10px 15px",
                               color: "white",
-                              backgroundColor: "#f76b6a",
+                              backgroundColor: "green",
                               borderRadius: "7px",
                             }}
                           >
                             Batafsil
                           </Link>
                         </span>
-                        <img alt="" src={border} className={styles.img1} />
+                        {/* <img alt="" src={border} className={styles.img1} /> */}
                       </Col>
 
                       <Col lg={7} style={{ padding: "0" }}>
@@ -352,7 +354,7 @@ export default class Dashboard extends Component {
                         width: "200px",
                         height: "2px",
                         margin: "auto",
-                        backgroundColor: "#FF8080",
+                        backgroundColor: "green",
                       }}
                     ></div>
                     <div id="dasturlar1"></div>
@@ -363,7 +365,7 @@ export default class Dashboard extends Component {
                         />
                       </div>
                       <div className={style.border}>
-                        <img src={img} />
+                        {/* <div className={style.bord}>a</div> */}
                       </div>
                       <div className={style.content}>
                         <h4>1-bosqich</h4>
@@ -371,7 +373,7 @@ export default class Dashboard extends Component {
                           style={{
                             width: "140px",
                             height: "1px",
-                            backgroundColor: "#FF8080",
+                            backgroundColor: "green",
                             margin: "16px 0px 12px",
                           }}
                         ></div>
@@ -382,7 +384,7 @@ export default class Dashboard extends Component {
                             style={{
                               padding: "10px 15px",
                               color: "white",
-                              backgroundColor: "#f76b6a",
+                              backgroundColor: "green",
                               borderRadius: "7px",
                             }}
                           >
@@ -399,7 +401,7 @@ export default class Dashboard extends Component {
                           style={{
                             width: "140px",
                             height: "1px",
-                            backgroundColor: "#FF8080",
+                            backgroundColor: "green",
                             margin: "16px 0px 12px",
                           }}
                         ></div>
@@ -410,7 +412,7 @@ export default class Dashboard extends Component {
                             style={{
                               padding: "10px 15px",
                               color: "white",
-                              backgroundColor: "#f76b6a",
+                              backgroundColor: "green",
                               borderRadius: "7px",
                             }}
                           >
@@ -419,7 +421,7 @@ export default class Dashboard extends Component {
                         </span>
                       </div>
                       <div className={style.border}>
-                        <img src={img} alt=" " />
+                        {/* <img src={img} alt=" " /> */}
                       </div>
                       <div className={style.rasm}>
                         <img
@@ -438,7 +440,7 @@ export default class Dashboard extends Component {
                         />
                       </div>
                       <div className={style.border}>
-                        <img src={img} />
+                        {/* <img src={img} /> */}
                       </div>
                       <div className={style.content}>
                         <h4>3-bosqich</h4>
@@ -446,7 +448,7 @@ export default class Dashboard extends Component {
                           style={{
                             width: "140px",
                             height: "1px",
-                            backgroundColor: "#FF8080",
+                            backgroundColor: "green",
                             margin: "16px 0px 12px",
                           }}
                         ></div>
@@ -457,7 +459,7 @@ export default class Dashboard extends Component {
                             style={{
                               padding: "10px 15px",
                               color: "white",
-                              backgroundColor: "#f76b6a",
+                              backgroundColor: "green",
                               borderRadius: "7px",
                             }}
                           >
@@ -493,14 +495,14 @@ export default class Dashboard extends Component {
                             style={{
                               padding: "10px 15px",
                               color: "white",
-                              backgroundColor: "#f76b6a",
+                              backgroundColor: "green",
                               borderRadius: "7px",
                             }}
                           >
                             Batafsil
                           </Link>
                         </span>
-                        <img alt="" src={border} />
+                        {/* <img alt="" src={border} /> */}
                       </Col>
                     </Row>
                   </Col>
@@ -539,14 +541,14 @@ export default class Dashboard extends Component {
                             style={{
                               padding: "10px 15px",
                               color: "white",
-                              backgroundColor: "#f76b6a",
+                              backgroundColor: "green",
                               borderRadius: "7px",
                             }}
                           >
                             Batafsil
                           </Link>
                         </span>
-                        <img alt="" src={border} className={styles.img1} />
+                        {/* <img alt="" src={border} className={styles.img1} /> */}
                       </Col>
                       <Col lg={7} style={{ padding: "0" }}>
                         <img alt="" src={rasm7} style={{ width: "100%" }} />

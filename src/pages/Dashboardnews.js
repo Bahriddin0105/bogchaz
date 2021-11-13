@@ -81,10 +81,10 @@ export default class Dashboardnews extends Component {
                             <p
                               style={{
                                 color: "white",
-                                backgroundColor: "#f76b6a",
+                                backgroundColor: "green",
                                 width: "76px",
                                 padding: "3px 10px",
-                                border: "1px solid #f76b6a",
+                                border: "1px solid green",
                                 borderRadius: "10px",
                               }}
                             >
@@ -117,10 +117,10 @@ export default class Dashboardnews extends Component {
                             <p
                               style={{
                                 color: "white",
-                                backgroundColor: "#f76b6a",
+                                backgroundColor: "green",
                                 width: "76px",
                                 padding: "3px 10px",
-                                border: "1px solid #f76b6a",
+                                border: "1px solid green",
                                 borderRadius: "10px",
                               }}
                             >
@@ -152,16 +152,16 @@ export default class Dashboardnews extends Component {
                           <Link
                             to="/yangilik/uz"
                             style={{
-                              color: "#f76b6a",
+                              color: "green",
                             }}
                           >
                             <p
                               style={{
                                 color: "white",
-                                backgroundColor: "#f76b6a",
+                                backgroundColor: "green",
                                 width: "76px",
                                 padding: "3px 10px",
-                                border: "1px solid #f76b6a",
+                                border: "1px solid green",
                                 borderRadius: "10px",
                               }}
                             >
@@ -194,10 +194,10 @@ export default class Dashboardnews extends Component {
                             <p
                               style={{
                                 color: "white",
-                                backgroundColor: "#f76b6a",
+                                backgroundColor: "green",
                                 width: "76px",
                                 padding: "3px 10px",
-                                border: "1px solid #f76b6a",
+                                border: "1px solid green",
                                 borderRadius: "10px",
                               }}
                             >

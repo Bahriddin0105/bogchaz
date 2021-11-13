@@ -77,7 +77,7 @@ export default class Dnavbar extends Component {
               <div className={styles.navbar}>
                 <span>
                   <a href="#">
-                    <FaHome style={{ color: "#4b4b4b", fontSize: "23px" }} />
+                    <FaHome style={{ color: "green", fontSize: "23px" }} />
                   </a>
                 </span>
                 <span style={{ fontSize: "25px" }}>|</span>

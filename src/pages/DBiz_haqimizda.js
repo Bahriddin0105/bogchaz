@@ -100,7 +100,7 @@ export default class DBiz_haqimizda extends Component {
                   style={{
                     padding: "10px 15px",
                     color: "white",
-                    backgroundColor: "#f76b6a",
+                    backgroundColor: "green",
                     borderRadius: "7px",
                   }}
                 >
@@ -123,7 +123,7 @@ export default class DBiz_haqimizda extends Component {
                     marginLeft: "40px",
                     padding: "10px 15px",
                     color: "white",
-                    backgroundColor: "#f76b6a",
+                    backgroundColor: "green",
                     borderRadius: "7px",
                   }}
                 >
@@ -146,7 +146,7 @@ export default class DBiz_haqimizda extends Component {
                     marginLeft: "40px",
                     padding: "10px 15px",
                     color: "white",
-                    backgroundColor: "#f76b6a",
+                    backgroundColor: "green",
                     borderRadius: "7px",
                   }}
                 >
@@ -242,7 +242,7 @@ export default class DBiz_haqimizda extends Component {
                           style={{
                             padding: "10px 15px",
                             color: "white",
-                            backgroundColor: "#f76b6a",
+                            backgroundColor: "green",
                             borderRadius: "7px",
                           }}
                         >
@@ -339,7 +339,7 @@ export default class DBiz_haqimizda extends Component {
                           style={{
                             padding: "10px 15px",
                             color: "white",
-                            backgroundColor: "#f76b6a",
+                            backgroundColor: "green",
                             borderRadius: "7px",
                           }}
                         >

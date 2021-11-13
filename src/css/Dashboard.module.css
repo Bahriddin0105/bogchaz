@@ -40,7 +40,7 @@ body {
   width: 130px !important;
 }
 .btnHeader button {
-  background-color: #f76b6a;
+  background-color: rgb(18, 88, 18);
   color: white;
   border: none;
   border-radius: 10px;
@@ -98,7 +98,7 @@ body {
   padding: 40px 0;
 }
 .tourCard button {
-  background-color: #f76b6a;
+  background-color: rgb(18, 88, 18);
   color: white;
   border: none;
   border-radius: 10px;
@@ -127,7 +127,7 @@ body {
   left: 0;
   width: 100px;
   height: 3px;
-  background-color: #f76b6a;
+  background-color: rgb(18, 88, 18);
 }
 .heading p {
   margin-top: 30px;
@@ -151,14 +151,14 @@ body {
   text-decoration: none;
 }
 .heading span a:hover {
-  color: #f76b6a;
+  color: rgb(18, 88, 18);
 }
 .heading1 span a {
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
 .heading1 span a:hover {
-  color: #f76b6a;
+  color: rgb(18, 88, 18);
 }
 .heading1 {
   padding-top: 30px !important;
@@ -179,7 +179,7 @@ body {
   left: 0;
   width: 100px;
   height: 3px;
-  background-color: #f76b6a;
+  background-color: rgb(18, 88, 18);
 }
 .heading1 p {
   margin-top: 30px;
@@ -263,7 +263,7 @@ body {
 .sarlavha {
   text-align: center;
   padding-bottom: 20px;
-  border-bottom: 4px solid #f76b6a;
+  border-bottom: 4px solid rgb(18, 88, 18);
   color: rgba(0, 0, 0, 0.85) !important;
   margin-bottom: 20px;
   font-size: 2.1rem;
@@ -275,6 +275,11 @@ body {
   width: 100%;
   height: max-content;
   text-align: center;
+}
+.bord {
+  width: 50px;
+  height: 400px;
+  background: linear-gradient(to-top, white, green);
 }
 .toolpat {
   border-radius: 50%;

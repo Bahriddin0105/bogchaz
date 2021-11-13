@@ -46,7 +46,7 @@ import YouTube from "@u-wave/react-youtube";
 import { getKg } from "../host/Config";
 import Global from "../host/Global";
 import Qabul from "./Qabul";
-
+import dashback from "../img/dashback.jpg";
 import style from "../css/Dasturlar.module.css";
 import rasm1d from "../img/logo-dark.png";
 import rasm5d from "../img/logo-dark.png";
@@ -104,7 +104,12 @@ export default class Dashboard extends Component {
             <Loader type="Circles" color="#00BFFF" height={80} width={80} />
           </div>
         ) : (
-          <div>
+          <div
+            style={{
+              background: "rgba(0, 255, 0, 0.2)",
+              width: "100%",
+            }}
+          >
             <div className={styles.header}>
               <Dnavbar />
               <div className={styles.youtube}>
@@ -128,9 +133,10 @@ export default class Dashboard extends Component {
                   style={{ zIndex: "-7" }}
                 /> */}
                 {/* <iframe width="100%" height="100%"style={{ zIndex: "-7" }} src="https://www.youtube.com/embed/Vjkedan2rxA?controls=0&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-                <video autoPlay="autoplay" loop="loop" muted>
+                {/* <video autoPlay="autoplay" loop="loop" muted>
                   <source src={kinder} type="video/mp4" />
-                </video>
+                </video> */}
+                {/* <img src={dashback} alt="" /> */}
               </div>
               <div className={styles.btnHeader}>
                 <img alt="" src={rasm2} />
@@ -413,11 +419,12 @@ export default class Dashboard extends Component {
                         </span>
                       </div>
                       <div className={style.border}>
-                        <img src={img} />
+                        <img src={img} alt=" " />
                       </div>
                       <div className={style.rasm}>
                         <img
                           src={`https://bogcha.herokuapp.com${Global.kg.program2_img}`}
+                          alt=" "
                         />
                       </div>
                     </div>
@@ -426,6 +433,7 @@ export default class Dashboard extends Component {
                     <div className={style.oyna}>
                       <div className={style.rasm}>
                         <img
+                          alt=" "
                           src={`https://bogcha.herokuapp.com${Global.kg.program3_img}`}
                         />
                       </div>
@@ -458,8 +466,9 @@ export default class Dashboard extends Component {
                         </span>
                       </div>
                     </div>
-                    <div id="yangilik"></div>
-                    <Dashboardnews />
+                    <div id="yangilik">
+                      <Dashboardnews />
+                    </div>
                     <Row style={{ border: "1px solid rgba(0,0,0,0.1)" }}>
                       <Col lg={7} style={{ padding: "0" }}>
                         <img alt="" src={rasm4} style={{ width: "100%" }} />

@@ -1,11 +1,13 @@
 body {
-  background-image: url("../img/navbar2.png") !important;
+  background-image: url("../img/navbar2.png");
   background-position: bottom;
   background-attachment: fixed;
-  z-index: -1 !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.vse {
-  z-index: 1 !important;
+body::after {
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
 }

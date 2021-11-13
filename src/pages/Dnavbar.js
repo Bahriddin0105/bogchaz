@@ -77,14 +77,14 @@ export default class Dnavbar extends Component {
               <div className={styles.navbar}>
                 <span>
                   <a href="#">
-                    <FaHome style={{ color: "#FF8080", fontSize: "23px" }} />
+                    <FaHome style={{ color: "#4b4b4b", fontSize: "23px" }} />
                   </a>
                 </span>
                 <span style={{ fontSize: "25px" }}>|</span>
                 <span className={styles.sub1}>
                   <a href="#bizhaqimizda">Biz haqimizda</a>
                 </span>
-                <div className={styles.subNav1}>
+                {/* <div className={styles.subNav1}>
                   <span>
                     <BsFillTriangleFill className={styles.icon1} />
                   </span>
@@ -103,18 +103,18 @@ export default class Dnavbar extends Component {
                   <p>
                     <Link to="/oshxona/uz">Oshxona</Link>
                   </p>
-                  {/* <p>
+                  <p>
                     <Link to="/galereya/uz">Galereya</Link>
-                  </p> */}
-                  {/* <p>
+                  </p>
+                  <p>
                     <Link to="/manzil/uz">Manzil</Link>
-                  </p> */}
-                </div>
+                  </p>
+                </div> */}
                 <span style={{ fontSize: "25px" }}>|</span>
                 <span className={styles.sub2}>
                   <a href="#dasturlar">Dasturlar</a>
                 </span>
-                <div className={styles.subNav2}>
+                {/* <div className={styles.subNav2}>
                   <span>
                     <BsFillTriangleFill className={styles.icon2} />
                   </span>
@@ -127,7 +127,7 @@ export default class Dnavbar extends Component {
                   <p>
                     <a href="#dasturlar3">3-bosqich</a>
                   </p>
-                </div>
+                </div> */}
                 <span style={{ fontSize: "25px" }}>|</span>
                 <span>
                   <Link to="/curriculm/uz">Qabul</Link>
@@ -146,29 +146,33 @@ export default class Dnavbar extends Component {
                 </span>
                 <span style={{ marginLeft: "40px" }}>
                   <a href={`tel: ${Global.kg !== null ? Global.kg.phone : ""}`}>
-                    <FaPhoneAlt
-                      style={{ color: "#FF8080", fontSize: "18px" }}
-                    />
+                    <FaPhoneAlt style={{ color: "black", fontSize: "18px" }} />
                   </a>
                 </span>
                 <span>
                   <a href={Global.kg !== null ? Global.kg.telegram : ""}>
                     <FaTelegramPlane
-                      style={{ color: "#FF8080", fontSize: "23px" }}
+                      style={{
+                        color: "#27a3e2",
+                        fontSize: "23px",
+                      }}
                     />
                   </a>
                 </span>
                 <span>
                   <a href={Global.kg !== null ? Global.kg.instagram : ""}>
                     <FaInstagram
-                      style={{ color: "#FF8080", fontSize: "23px" }}
+                      style={{
+                        color: "#e95067",
+                        fontSize: "23px",
+                      }}
                     />
                   </a>
                 </span>
                 <span>
                   <a href={Global.kg !== null ? Global.kg.facebook : ""}>
                     <FaFacebook
-                      style={{ color: "#FF8080", fontSize: "23px" }}
+                      style={{ color: "#4064ac", fontSize: "23px" }}
                     />
                   </a>
                 </span>

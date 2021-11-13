@@ -44,7 +44,13 @@ export default class Dashboardnews extends Component {
       <div>
         <Container>
           <body>
-            <div className={styles.body}>
+            <div
+              className={styles.body}
+              style={{
+                background: "rgba(0, 0, 0, 0.3)",
+                width: "100%",
+              }}
+            >
               <div data-aos="fade-up" className={styles.title}>
                 <h1>Yangiliklar</h1>
               </div>

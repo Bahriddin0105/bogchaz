@@ -11,7 +11,7 @@ body {
   z-index: 111111111 !important;
 }
 .nav1_active {
-  background-color: white !important;
+  background-color: rgba(0, 0, 0, 0.501) !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -32,14 +32,14 @@ body {
 }
 .logo1 {
   width: 100vw;
-  z-index: 1;
+  z-index: -3;
   position: absolute;
   top: 0px;
   left: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.501);
   padding: 20px;
   box-shadow: 0 0.46875rem 2.1875rem rgb(4 9 20 / 3%),
     0 0.9375rem 1.40625rem rgb(4 9 20 / 3%),
@@ -51,11 +51,11 @@ body {
   position: relative;
 }
 .navbar a {
-  color: #f76b6a;
+  color: white;
   text-decoration: none;
 }
 .navbar a:hover {
-  color: #f76b6a;
+  color: white;
   text-decoration: underline;
 }
 .logo1 img {
@@ -63,7 +63,7 @@ body {
   margin-left: 20px;
 }
 .navbar span {
-  color: #f76b6a;
+  color: white;
   font-size: 14px;
   margin-right: 10px;
   text-transform: uppercase;
@@ -75,29 +75,30 @@ body {
   width: 200px !important;
 }
 .btn1 {
-  background-color: #f76b6a;
+  background-color: white;
   color: white;
   border-radius: 5px;
   padding: 5px 30px;
   font-size: 16px;
   font-weight: 600;
   border: 1px solid black;
+  /* background:rgb(39, 39, 255); */
   margin-right: 20px;
   transition: all 0.3s;
 }
 .btn1:hover {
   background-color: white;
-  border: 1px solid #f76b6a;
-  color: #f76b6a;
+  border: 1px solid white;
+  color: white;
 }
 .btn2:hover {
   background-color: white;
-  border: 1px solid #f76b6a;
-  color: #f76b6a;
+  border: 1px solid white;
+  color: white;
 }
 .btn2 {
   border: none;
-  background-color: #f76b6a;
+  background-color: white;
   color: white;
   border-radius: 5px;
   padding: 5px 30px;
@@ -105,7 +106,7 @@ body {
   font-weight: 600;
   margin-right: 20px;
   transition: all 0.3s;
-  border: 1px solid #f76b6a;
+  border: 1px solid white;
 }
 .subNav1 {
   display: none;
@@ -115,7 +116,7 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 5px 20px;
   text-align: left;
-  border-top: 3px solid #f76b6a;
+  border-top: 3px solid white;
   padding-top: 15px;
   z-index: 1111111;
   width: 200px;
@@ -132,7 +133,7 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 5px 20px;
   text-align: left;
-  border-top: 3px solid #f76b6a;
+  border-top: 3px solid white;
   padding-top: 15px;
   z-index: 1111111;
   width: 200px;
@@ -160,14 +161,14 @@ body {
   text-decoration: underline;
 }
 .icon1 {
-  color: #f76b6a;
+  color: white;
   position: absolute;
   top: -7%;
   left: 25%;
   font-size: 18px;
 }
 .icon2 {
-  color: #f76b6a;
+  color: white;
   position: absolute;
   top: -13%;
   left: 25%;
@@ -224,7 +225,7 @@ body {
     display: block;
     width: 100vw;
     height: 100vh;
-    background-color: #f76b6a;
+    background-color: white;
     overflow-y: scroll;
     transition: all 0.3s;
     z-index: 1111111111111111111 !important;
@@ -236,7 +237,7 @@ body {
     display: block;
     width: 110vw;
     height: 100vh;
-    background-color: #f76b6a;
+    background-color: white;
     overflow-y: scroll;
     transition: all 0.3s;
     z-index: 111111111111111112111111 !important;
@@ -298,7 +299,7 @@ body {
     display: block;
     width: 100vw;
     height: 100vh;
-    background-color: #f76b6a;
+    background-color: white;
     overflow-y: scroll;
     transition: all 0.3s;
     z-index: 11111111111111111 !important;
@@ -310,7 +311,7 @@ body {
     display: block;
     width: 110vw;
     height: 100vh;
-    background-color: #f76b6a;
+    background-color: white;
     overflow-y: scroll;
     transition: all 0.3s;
     z-index: 111111111111111112111111 !important;
@@ -371,7 +372,7 @@ body {
     display: block;
     width: 100vw;
     height: 100vh;
-    background-color: #f76b6a;
+    background-color: white;
     overflow-y: scroll;
     transition: all 0.3s;
     z-index: 11111111111111111 !important;
@@ -383,7 +384,7 @@ body {
     display: block;
     width: 110vw;
     height: 100vh;
-    background-color: #f76b6a !important;
+    background-color: white !important;
     overflow-y: scroll;
     transition: all 0.3s;
     z-index: 111111111111111112111111 !important;

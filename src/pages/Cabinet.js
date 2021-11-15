@@ -272,7 +272,13 @@ export default class Cabinet extends Component {
   };
   render() {
     return (
-      <div style={{ padding: "3%", width: "100%" }}>
+      <div
+        style={{
+          padding: "3%",
+          width: "100%",
+          background: "rgba(0, 0, 0, 0.3)",
+        }}
+      >
         <div className={styles.formAdmin}>
           <YMaps>
             <Map

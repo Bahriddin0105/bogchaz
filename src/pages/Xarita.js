@@ -70,7 +70,12 @@ export const Xarita = () => {
           />
         </div>
       ) : (
-        <>
+        <div
+          style={{
+            background: "rgba(0, 0, 0, 0.3)",
+            width: "100%",
+          }}
+        >
           <Navbar />
           <YMaps key={"uz_UZ"} query={{ lang: "uz_UZ" }}>
             <Map
@@ -141,7 +146,7 @@ export const Xarita = () => {
               <ZoomControl options={{ float: "left" }} />
             </Map>
           </YMaps>
-        </>
+        </div>
       )}
       <Footer />
     </>

@@ -40,7 +40,12 @@ export default class Qabul extends Component {
           keyBoardControl={false}
           showDots={false}
         >
-          <div>
+          <div
+            style={{
+              background: "rgba(0, 0, 0, 0.3)",
+              width: "100%",
+            }}
+          >
             <img
               src="https://vestikavkaza.ru/upload/2016-02-25/ea3d4df1467f5cee7d2653de33b3ad64.jpg"
               className={styles.headerImage}

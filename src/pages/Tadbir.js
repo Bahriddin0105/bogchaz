@@ -37,7 +37,12 @@ export default class Tadbir extends Component {
             />
           </div>
         ) : (
-          <div>
+          <div
+            style={{
+              background: "rgba(0, 0, 0, 0.3)",
+              width: "100%",
+            }}
+          >
             <header className={styles.newbg}>
               <Navbar />
               <div data-aos="fade-up" className={styles.newtitle}>

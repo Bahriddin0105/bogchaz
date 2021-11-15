@@ -73,7 +73,12 @@ export default class CabinetEducator extends Component {
             />
           </div>
         ) : (
-          <div>
+          <div
+            style={{
+              background: "rgba(0, 0, 0, 0.3)",
+              width: "100%",
+            }}
+          >
             <div style={{ display: "flex", flexDirection: "row" }}>
               <BrowserRouter>
                 <div

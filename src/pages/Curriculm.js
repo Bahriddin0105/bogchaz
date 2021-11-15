@@ -37,7 +37,12 @@ export default class Curriculm extends Component {
             />
           </div>
         ) : (
-          <div>
+          <div
+            style={{
+              background: "rgba(0, 0, 0, 0.3)",
+              width: "100%",
+            }}
+          >
             <Navbar />
             <div className={styles.header}>
               <video autoPlay="autoplay" loop="loop" muted>

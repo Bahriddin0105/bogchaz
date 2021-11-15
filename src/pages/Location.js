@@ -87,7 +87,12 @@ export default class Location extends Component {
             />
           </div>
         ) : (
-          <div>
+          <div
+            style={{
+              background: "rgba(0, 0, 0, 0.3)",
+              width: "100%",
+            }}
+          >
             <div className={styles.one}>
               <div
                 className={this.state.nav ? styles.nav1_active : styles.nav1}

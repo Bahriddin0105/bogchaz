@@ -167,7 +167,13 @@ export default class teachers1 extends Component {
       `custom format: ${value.format(dateFormat)}`;
 
     return (
-      <div style={{ padding: "3%" }}>
+      <div
+        style={{
+          padding: "3%",
+          background: "rgba(0, 0, 0, 0.3)",
+          width: "100%",
+        }}
+      >
         <div className={styles.formAdmin}>
           <h4>Rahbar kiritish</h4>
 

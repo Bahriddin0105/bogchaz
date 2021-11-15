@@ -72,7 +72,13 @@ export default class Dasturlar extends Component {
 
     return (
       <>
-        <div className={style.mat}>
+        <div
+          className={style.mat}
+          style={{
+            background: "rgba(0, 0, 0, 0.3)",
+            width: "100%",
+          }}
+        >
           <Navbar />
           <h2 className={style.sarlavha}>Dasturlar</h2>
           <div

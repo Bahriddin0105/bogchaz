@@ -69,7 +69,12 @@ export default function Login() {
           />
         </div>
       ) : (
-        <div>
+        <div
+          style={{
+            background: "rgba(0, 0, 0, 0.3)",
+            width: "100%",
+          }}
+        >
           <div className={styles.one}>
             <div className={nav ? styles.nav1_active : styles.nav1}>
               <div className={nav ? styles.logo1 : styles.logo}>

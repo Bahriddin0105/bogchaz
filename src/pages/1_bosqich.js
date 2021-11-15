@@ -66,7 +66,12 @@ export default class Bosqich1 extends Component {
             />
           </div>
         ) : (
-          <div>
+          <div
+            style={{
+              background: "rgba(0, 0, 0, 0.3)",
+              width: "100%",
+            }}
+          >
             <Navbar />
             <Carousel
               className={style.sliderHeader}

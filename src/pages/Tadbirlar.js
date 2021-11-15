@@ -47,7 +47,12 @@ export default class Tadbirlar extends Component {
             />
           </div>
         ) : (
-          <div>
+          <div
+            style={{
+              background: "rgba(0, 0, 0, 0.3)",
+              width: "100%",
+            }}
+          >
             <header>
               <div className={styles.header}>
                 <Navbar />

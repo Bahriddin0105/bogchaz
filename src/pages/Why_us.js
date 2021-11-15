@@ -95,7 +95,14 @@ export default class Why_us extends Component {
             </header>
             <Container>
               <body>
-                <div className={styles.body}>
+                <div
+                  className={styles.body}
+                  style={{
+                    background: "rgba(0, 0, 0, 0.3)",
+                    width: "100%",
+                    marginTop: "-40px",
+                  }}
+                >
                   <div className={styles.title}>
                     <h1>Nega biz</h1>
                   </div>

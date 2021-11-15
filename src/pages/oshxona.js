@@ -91,89 +91,91 @@ export default class Oshxona extends Component {
                 <img src={kinder3} className={styles.sliderImage} />
               </div>
             </Carousel>
-            <Container fluid style={{ padding: "0" }}>
-              <Row>
-                <Col lg={12} className={styles.text}>
-                  <div style={{ display: "flex", justifyContent: "center" }}>
-                    <h1>Bog'chamiz oshxonasi</h1>
-                  </div>
-                  <h2>
-                    Maktabgacha yoshdagi bolalarni nima bilan boqish kerak?
-                  </h2>
-                  <p>
-                    3 yoshdan 5 yoshgacha bo'lgan maktabgacha yoshdagi bolalar
-                    turli xil foydali ovqatlarni iste'mol qilish imkoniyatiga
-                    ega. Farzandingizga boshqa oila a'zolari iste'mol qiladigan
-                    ovqatni taklif qiling. Turli xil ta'm, to'qima va ranglarga
-                    ega ovqatlarni taklif eting
-                  </p>
-                  <h2>
-                    Maktabgacha tarbiyalanuvchi qancha ovqat yeyishi kerak?
-                  </h2>
-                  <p>
-                    Farzandingiz siz taklif qilayotgan ovqatlardan qancha ovqat
-                    iste'mol qilishni hal qilsin. Farzandingizni ovqat eyishga
-                    majburlamang yoki unga ruxsat berilgan ovqat miqdorini
-                    cheklamang. Ba'zi kunlarda ular ko'proq ovqatlanishlari
-                    mumkin. Ba'zi kunlarda ular kamroq ovqatlanishlari mumkin.
-                    Bolaning ishtahasi kundan-kunga o'zgarishi mumkin. Quyidagi
-                    namunaviy taomlardan faqat umumiy ko'rsatmalar sifatida
-                    foydalaning. Ovqatlanish va atıştırmalıklarni har kuni bir
-                    vaqtning o'zida rejalashtiring, shunda ovqatlanish vaqti
-                    kelganida bolangiz och qoladi.
-                  </p>
-                  <h2>
-                    Maktabgacha yoshdagi bolalar uchun namunaviy ovqatlanish: 3
-                    yoshdan 5 yoshgacha
-                  </h2>
-                  {Global.kg.oshxona.map((food) => {
-                    if (food.id === 3) {
-                      return <h2 className={styles.heading}>{food.name}</h2>;
-                    }
-                  })}
+            <Container>
+              <Container fluid style={{ padding: "0" }}>
+                <Row>
+                  <Col lg={12} className={styles.text}>
+                    <div style={{ display: "flex", justifyContent: "center" }}>
+                      <h1>Bog'chamiz oshxonasi</h1>
+                    </div>
+                    <h2>
+                      Maktabgacha yoshdagi bolalarni nima bilan boqish kerak?
+                    </h2>
+                    <p>
+                      3 yoshdan 5 yoshgacha bo'lgan maktabgacha yoshdagi bolalar
+                      turli xil foydali ovqatlarni iste'mol qilish imkoniyatiga
+                      ega. Farzandingizga boshqa oila a'zolari iste'mol
+                      qiladigan ovqatni taklif qiling. Turli xil ta'm, to'qima
+                      va ranglarga ega ovqatlarni taklif eting
+                    </p>
+                    <h2>
+                      Maktabgacha tarbiyalanuvchi qancha ovqat yeyishi kerak?
+                    </h2>
+                    <p>
+                      Farzandingiz siz taklif qilayotgan ovqatlardan qancha
+                      ovqat iste'mol qilishni hal qilsin. Farzandingizni ovqat
+                      eyishga majburlamang yoki unga ruxsat berilgan ovqat
+                      miqdorini cheklamang. Ba'zi kunlarda ular ko'proq
+                      ovqatlanishlari mumkin. Ba'zi kunlarda ular kamroq
+                      ovqatlanishlari mumkin. Bolaning ishtahasi kundan-kunga
+                      o'zgarishi mumkin. Quyidagi namunaviy taomlardan faqat
+                      umumiy ko'rsatmalar sifatida foydalaning. Ovqatlanish va
+                      atıştırmalıklarni har kuni bir vaqtning o'zida
+                      rejalashtiring, shunda ovqatlanish vaqti kelganida
+                      bolangiz och qoladi.
+                    </p>
+                    <h2>
+                      Maktabgacha yoshdagi bolalar uchun namunaviy ovqatlanish:
+                      3 yoshdan 5 yoshgacha
+                    </h2>
+                    {Global.kg.oshxona.map((food) => {
+                      if (food.id === 3) {
+                        return <h2 className={styles.heading}>{food.name}</h2>;
+                      }
+                    })}
 
-                  <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
-                  <div className={styles.cardchalar}>
-                    <div>Nonushta</div>
+                    <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
+                    <div className={styles.cardchalar}>
+                      <div>Nonushta</div>
 
-                    {Global.kg.menu.map((food) => {
-                      if (food.oshxona === 3 && food.name === "nonushta 1") {
-                        return (
-                          <div style={{ marginLeft: "200px" }}>
-                            {food.tarkib}
-                          </div>
-                        );
-                      }
-                    })}
-                  </div>
-                  <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
-                  <div className={styles.cardchalar}>
-                    <div>Ertalabki tamaddi</div>
-                    {Global.kg.menu.map((food) => {
-                      if (food.oshxona === 3 && food.name === "nonushta 2") {
-                        return (
-                          <div style={{ marginLeft: "150px" }}>
-                            {food.tarkib}
-                          </div>
-                        );
-                      }
-                    })}
-                  </div>
-                  <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
-                  <div className={styles.cardchalar}>
-                    <div>Tushlik</div>
-                    {Global.kg.menu.map((food) => {
-                      if (food.oshxona === 3 && food.name === "tushlik") {
-                        return (
-                          <div style={{ marginLeft: "210px" }}>
-                            {food.tarkib}
-                          </div>
-                        );
-                      }
-                    })}
-                  </div>
-                  <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
-                  {/* <div className={styles.cardchalar}>
+                      {Global.kg.menu.map((food) => {
+                        if (food.oshxona === 3 && food.name === "nonushta 1") {
+                          return (
+                            <div style={{ marginLeft: "200px" }}>
+                              {food.tarkib}
+                            </div>
+                          );
+                        }
+                      })}
+                    </div>
+                    <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
+                    <div className={styles.cardchalar}>
+                      <div>Ertalabki tamaddi</div>
+                      {Global.kg.menu.map((food) => {
+                        if (food.oshxona === 3 && food.name === "nonushta 2") {
+                          return (
+                            <div style={{ marginLeft: "150px" }}>
+                              {food.tarkib}
+                            </div>
+                          );
+                        }
+                      })}
+                    </div>
+                    <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
+                    <div className={styles.cardchalar}>
+                      <div>Tushlik</div>
+                      {Global.kg.menu.map((food) => {
+                        if (food.oshxona === 3 && food.name === "tushlik") {
+                          return (
+                            <div style={{ marginLeft: "210px" }}>
+                              {food.tarkib}
+                            </div>
+                          );
+                        }
+                      })}
+                    </div>
+                    <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
+                    {/* <div className={styles.cardchalar}>
                     <div>Peshindan keyin tamaddi</div>
                     <div style={{ marginLeft: "100px" }}>
                       Yong'oq moyi yoki keddar pishloqli olma bo'laklari Suv
@@ -181,39 +183,39 @@ export default class Oshxona extends Component {
                   </div>
                   <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} /> */}
 
-                  {Global.kg.oshxona.map((food) => {
-                    if (food.id === 4) {
-                      return <h2 className={styles.heading}>{food.name}</h2>;
-                    }
-                  })}
-                  <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
-                  <div className={styles.cardchalar}>
-                    <div>Nonushta</div>
-                    {Global.kg.menu.map((food) => {
-                      if (food.oshxona === 4 && food.name === "nonushta") {
-                        return (
-                          <div style={{ marginLeft: "200px" }}>
-                            {food.tarkib}
-                          </div>
-                        );
+                    {Global.kg.oshxona.map((food) => {
+                      if (food.id === 4) {
+                        return <h2 className={styles.heading}>{food.name}</h2>;
                       }
                     })}
-                  </div>
-                  <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
-                  <div className={styles.cardchalar}>
-                    <div>Tushlik</div>
-                    {Global.kg.menu.map((food) => {
-                      if (food.oshxona === 4 && food.name === "tushlik") {
-                        return (
-                          <div style={{ marginLeft: "215px" }}>
-                            {food.tarkib}
-                          </div>
-                        );
-                      }
-                    })}
-                  </div>
-                  <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
-                  {/* <div className={styles.cardchalar}>
+                    <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
+                    <div className={styles.cardchalar}>
+                      <div>Nonushta</div>
+                      {Global.kg.menu.map((food) => {
+                        if (food.oshxona === 4 && food.name === "nonushta") {
+                          return (
+                            <div style={{ marginLeft: "200px" }}>
+                              {food.tarkib}
+                            </div>
+                          );
+                        }
+                      })}
+                    </div>
+                    <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
+                    <div className={styles.cardchalar}>
+                      <div>Tushlik</div>
+                      {Global.kg.menu.map((food) => {
+                        if (food.oshxona === 4 && food.name === "tushlik") {
+                          return (
+                            <div style={{ marginLeft: "215px" }}>
+                              {food.tarkib}
+                            </div>
+                          );
+                        }
+                      })}
+                    </div>
+                    <hr style={{ backgroundColor: "#F76B6A", height: "2px" }} />
+                    {/* <div className={styles.cardchalar}>
                     <div>Tushlik</div>
                     <div style={{ marginLeft: "210px" }}>
                       Ko'p donli non yoki bug'doy krakerida orkinos pishirilgan
@@ -230,8 +232,9 @@ export default class Oshxona extends Component {
                       bug'doy pita noni Suv
                     </div>
                   </div> */}
-                </Col>
-              </Row>
+                  </Col>
+                </Row>
+              </Container>
             </Container>
             <Footer />
           </div>

@@ -71,7 +71,14 @@ export default class Qabul extends Component {
           </div>
         </Carousel>
         <div className="anima"></div>
-        <div className="information">
+        <div
+          className="information"
+          style={{
+            background: "rgba(0, 0, 0, 0.3)",
+            width: "100%",
+            // marginTop: "-40px",
+          }}
+        >
           {/* <div class="d-flex flex-column justify-content-center w-100 h-100">
             <div class="d-flex flex-column justify-content-center align-items-center"> */}
           <h1 className="text1">QABUL</h1>

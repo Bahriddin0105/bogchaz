@@ -77,7 +77,7 @@ export default class Navbar extends Component {
               <div className={styles.navbar}>
                 <span>
                   <Link to="/dashboard/uz">
-                    <FaHome style={{ color: "#FF8080", fontSize: "23px" }} />
+                    <FaHome style={{ color: "green", fontSize: "23px" }} />
                   </Link>
                 </span>
                 <span style={{ fontSize: "25px" }}>|</span>
@@ -146,29 +146,27 @@ export default class Navbar extends Component {
                 </span>
                 <span style={{ marginLeft: "40px" }}>
                   <a href={`tel: ${Global.kg !== null ? Global.kg.phone : ""}`}>
-                    <FaPhoneAlt
-                      style={{ color: "#FF8080", fontSize: "18px" }}
-                    />
+                    <FaPhoneAlt style={{ color: "black", fontSize: "18px" }} />
                   </a>
                 </span>
                 <span>
                   <a href={Global.kg !== null ? Global.kg.telegram : ""}>
                     <FaTelegramPlane
-                      style={{ color: "#FF8080", fontSize: "23px" }}
+                      style={{ color: "#27a3e2", fontSize: "23px" }}
                     />
                   </a>
                 </span>
                 <span>
                   <a href={Global.kg !== null ? Global.kg.instagram : ""}>
                     <FaInstagram
-                      style={{ color: "#FF8080", fontSize: "23px" }}
+                      style={{ color: "#e95067", fontSize: "23px" }}
                     />
                   </a>
                 </span>
                 <span>
                   <a href={Global.kg !== null ? Global.kg.facebook : ""}>
                     <FaFacebook
-                      style={{ color: "#FF8080", fontSize: "23px" }}
+                      style={{ color: "#4064ac", fontSize: "23px" }}
                     />
                   </a>
                 </span>
@@ -193,7 +191,7 @@ export default class Navbar extends Component {
               >
                 <FaBars
                   onClick={this.openNav}
-                  style={{ color: "#F76B6A", fontSize: "30px" }}
+                  style={{ color: "black", fontSize: "30px" }}
                 />
               </div>
               <div
@@ -330,7 +328,7 @@ export default class Navbar extends Component {
                       <span>
                         <a href="tel:+998335093874">
                           <FaPhoneAlt
-                            style={{ color: "white", fontSize: "18px" }}
+                            style={{ color: "black", fontSize: "18px" }}
                           />
                         </a>
                       </span>
@@ -338,7 +336,7 @@ export default class Navbar extends Component {
                         <a href="http://t.me/Karshiyeva_N">
                           <FaTelegramPlane
                             style={{
-                              color: "white",
+                              color: "#27a3e2",
                               fontSize: "23px",
                               marginLeft: "10px",
                             }}
@@ -349,7 +347,7 @@ export default class Navbar extends Component {
                         <a href="http://t.me/Karshiyeva_N">
                           <FaInstagram
                             style={{
-                              color: "white",
+                              color: "#e95067",
                               fontSize: "23px",
                               marginLeft: "10px",
                             }}
@@ -360,7 +358,7 @@ export default class Navbar extends Component {
                         <a href="http://t.me/Karshiyeva_N">
                           <FaFacebook
                             style={{
-                              color: "white",
+                              color: "#4064ac",
                               fontSize: "23px",
                               marginLeft: "10px",
                             }}

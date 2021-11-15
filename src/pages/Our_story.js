@@ -54,7 +54,12 @@ export default class Our_story extends Component {
       },
     };
     return (
-      <div>
+      <div
+        style={{
+          background: "rgba(0, 0, 0, 0.3)",
+          width: "100%",
+        }}
+      >
         {this.state.loader ? (
           <div className={styles.loader}>
             <Loader
@@ -66,12 +71,7 @@ export default class Our_story extends Component {
             />
           </div>
         ) : (
-          <div
-            style={{
-              background: "rgba(0, 0, 0, 0.3)",
-              width: "100%",
-            }}
-          >
+          <div>
             <header>
               <div className={styles.header}>
                 <Navbar />
@@ -95,7 +95,14 @@ export default class Our_story extends Component {
             </header>
             <Container>
               <body>
-                <div className={styles.body}>
+                <div
+                  className={styles.body}
+                  style={{
+                    background: "rgba(0, 0, 0, 0.3)",
+                    width: "100%",
+                    marginTop: "-40px",
+                  }}
+                >
                   <div className={styles.title}>
                     <h1>Bizning tarix</h1>
                   </div>

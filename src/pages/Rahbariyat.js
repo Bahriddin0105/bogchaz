@@ -97,7 +97,14 @@ export default class Rahbariyat extends Component {
 
             <Container>
               <body>
-                <div className={styles.body}>
+                <div
+                  className={styles.body}
+                  style={{
+                    background: "rgba(0, 0, 0, 0.3)",
+                    width: "100%",
+                    marginTop: "-40px",
+                  }}
+                >
                   <div data-aos="fade-up" className={styles.title}>
                     <h1>Rahbariyat</h1>
                   </div>

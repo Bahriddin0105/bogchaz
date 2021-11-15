@@ -5,6 +5,7 @@
 }
 body {
   font-family: helvetica neue, Helvetica, Arial, sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
 .headerImage {
   width: 100%;
